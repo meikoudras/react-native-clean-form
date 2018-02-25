@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types';
 import { TextInput, View } from 'react-native'
 import styled from 'styled-components/native'
 import defaultTheme from './theme'
@@ -36,7 +37,7 @@ const Input = props => (
 )
 
 Input.PropTypes = {
-  inlineLabel: React.PropTypes.bool.isRequired
+  inlineLabel: PropTypes.bool.isRequired
 }
 
 Input.defaultProps = {

@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types';
 import { View } from 'react-native'
 import styled from 'styled-components/native'
 import defaultTheme from './theme'
@@ -36,9 +37,9 @@ const FormGroup = props => {
 }
 
 FormGroup.PropTypes = {
-  border: React.PropTypes.bool,
-  error: React.PropTypes.bool,
-  inlineLabel: React.PropTypes.bool
+  border: PropTypes.bool,
+  error: PropTypes.bool,
+  inlineLabel: PropTypes.bool
 }
 
 FormGroup.defaultProps = {
